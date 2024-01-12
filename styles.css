@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:"Roboto Mono", serif;
+}
+header{
+    display:flex;
+    height:100px;
+    background-color:rgba(114, 165, 129 , 0.6);
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0px 6px rgba(114, 165, 129 , 0.3);
+}
+.logo{
+    margin-left:4em;
+}
+
+header > nav > ul{
+    display:flex;
+    list-style-type: none;
+    margin-right:4em;
+}
+header > nav > ul > li{
+    margin-left:2em;
+    margin-right:2em;
+}
+header > nav > ul > li > a{
+    border:none;
+    border-radius:5px;
+    box-sizing:border-box;
+    padding: 0.5em;
+    background-color:rgba(114, 165, 129 , 0.6);
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    box-shadow:0px 4px rgba(114, 165, 129 , 0.9);
+}
+header > nav > ul > li > a:hover{
+    background-color:rgba(114, 165, 129 , 0.9);
+    box-shadow:none;
+    font-size: 1.1rem;
+    transition:font-size 0.25s;
+}
+main{
+    display:flex;
+    height:calc(100vh - 100px);
+    align-items:center;
+    justify-content:center;
+    background-color:rgba(255, 255, 255, 0.2);
+}
+.left-container{
+    width:30%;
+    align-content:center;
+    justify-content: center;
+    text-align:center;
+}
+.left-container > p {
+    font-size:1em;
+}
+.left-container p:hover{
+    font-size:1.1em;
+    transition:font-size 0.25s;
+}
+.right-container{
+justify-content: center;
+margin-left: 4em;
+}
+.hero-img{
+    max-width:670px;
+    height:auto;
+    
+}
+main h1{
+margin-bottom:1em;
+}
+
+footer{
+    height:100px;
+    display:flex;
+    justify-content: center;
+    background-color:rgba(114, 165, 129 , 0.6);
+    box-shadow:inset 0 4px rgba(114, 165, 129 , 0.3);
+}
+footer > h3{
+    align-self: center;
+    text-transform:uppercase;
+    font-size:1em;
+    
+}
+footer > h3:hover{
+    font-size:1.1em;
+    transition:font-size 0.25s;
+}
+
+
+
